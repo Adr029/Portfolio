@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>vCard - Personal Portfolio</title>
+  <title>Adrian Rodriguez - Portfolio</title>
 
   <!--
     - favicon
@@ -42,7 +42,7 @@
       <div class="sidebar-info">
 
         <figure class="avatar-box">
-          <img src="./assets/images/profilepic.png" alt="Avatar"  class = "profile-pic">
+          <img src="./assets/images/profilepic.png" alt="Avatar"  class = "profile-pic" width = "80px">
         </figure>
 
         <div class="info-content">
@@ -207,6 +207,8 @@
           <p>
             I am a hardworking individual with a strong passion for technological development. 
             I am an analytical person with a focus on logical thinking, and I enjoy problem-solving and troubleshooting during development.
+          </p>
+          <p>
             I like thinking of ways in which current software and
             applications can be improved and would like to have the opportunity to use my skills to benefit many people.
             I hope to be in a company that would help me grow in the professional world.
@@ -220,22 +222,22 @@
 
         <section class="service">
 
-          <h3 class="h3 service-title">What i'm doing</h3>
+          <h3 class="h3 service-title">Hands-On Experience</h3>
 
           <ul class="service-list">
 
             <li class="service-item">
 
               <div class="service-icon-box">
-                <img src="./assets/images/icon-design.svg
-                " alt="design icon" width="40">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+
               </div>
 
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Web design</h4>
+                <h4 class="h4 service-item-title">Android Development</h4>
 
                 <p class="service-item-text">
-                  The most modern and high-quality design made at a professional level.
+                  Developed Android applications using Java and Android Studio.                
                 </p>
               </div>
 
@@ -248,23 +250,22 @@
               </div>
 
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Web development</h4>
+                <h4 class="h4 service-item-title">Game Development</h4>
 
                 <p class="service-item-text">
-                  High-quality development of sites at the professional level.
+                  Developed 2D video games using Unity Engine.                
                 </p>
               </div>
 
             </li>
-
-            <li class="service-item">
+<!--  <li class="service-item">
 
               <div class="service-icon-box">
                 <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
               </div>
 
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Mobile apps</h4>
+                <h4 class="h4 service-item-title">Software Development</h4>
 
                 <p class="service-item-text">
                   Professional development of applications for iOS and Android.
@@ -287,7 +288,8 @@
                 </p>
               </div>
 
-            </li>
+            </li>--->
+          
 
           </ul>
 
@@ -357,7 +359,6 @@
 
             </li>
 
-
           </ol>
 
         </section>
@@ -382,24 +383,25 @@
               <span>Melham Construction Corporation</span>
 
               <p class="timeline-text">
-                Worked as a backend developer as for our university's On-the-Job Training/Internship Program. <br>
-                <ul>
+                Worked as a backend developer as for our university's Internship Program. <br>
+              </p>
+                <ul class = "responsibility-list">
                   <i>
                   <li class="timeline-text">
                     ● Led a backend team of five interns in developing an Android logistics application project. 
-                  </li>
+                  
                   <li class="timeline-text">
                    ● Took over the backend development from 30% to 100% completion. 
-                  </li>
+                 
                   <li class="timeline-text">
                    ● Coordinated remotely with project team and supervisors regarding project progress and development.
-                  </li>
+                 
                   <li class="timeline-text">
                    ● Trained new members of the backend team on the project requirements, specifically Java, Android Studio, and GitHub.
-                  </li>
+                 
                 </i>
                 </ul>
-              </p>
+            
 
             </li>
 
@@ -412,8 +414,10 @@
 
               <p class="timeline-text">
                 Worked as a tech support for our school's Work Immersion Program.
-                <ul>
-                  <i>
+              </p>
+
+              <ul class = "responsibility-list">
+                <i>
                   <li class="timeline-text">
                     ● Troubleshooted and maintained computer hardware.
                   </li>
@@ -423,7 +427,6 @@
                 </i>
                 </ul>
           
-              </p>
 
             </li>
           </ol>
@@ -517,17 +520,14 @@
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Web design</button>
+              <button data-filter-btn>Android Development</button>
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Applications</button>
+              <button data-filter-btn>Game Development</button>
             </li>
 
-            <li class="filter-item">
-              <button data-filter-btn>Web development</button>
-            </li>
-
+       
           </ul>
 
           <div class="filter-select-box">
@@ -549,185 +549,73 @@
               </li>
 
               <li class="select-item">
-                <button data-select-item>Web design</button>
+                <button data-select-item>Android Development</button>
               </li>
 
               <li class="select-item">
-                <button data-select-item>Applications</button>
+                <button data-select-item>Game Development</button>
               </li>
 
-              <li class="select-item">
-                <button data-select-item>Web development</button>
-              </li>
-
+  
             </ul>
 
           </div>
 
           <ul class="project-list">
 
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
+            <li class="project-item  active" data-filter-item data-category="game development">
+              <a href="https://github.com/Adr029/Math-Wars">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                  <img src="./assets/images/math-wars.jpg" alt="math wars" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Finance</h3>
+                <h3 class="project-title">Math Wars</h3>
 
-                <p class="project-category">Web development</p>
+                <p class="project-category">Game Development</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
+            <li class="project-item  active" data-filter-item data-category="android development">
+              <a href="https://github.com/Adr029/Memoir-Slambook">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                  <img src="./assets/images/memoir.jpg" alt="memoir" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Orizon</h3>
+                <h3 class="project-title">Memoir</h3>
 
-                <p class="project-category">Web development</p>
+                <p class="project-category">Android Development</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
+            <li class="project-item  active" data-filter-item data-category="android development">
+              <a href="https://www.youtube.com/watch?v=EIdXJpISf8g">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+                  <img src="./assets/images/melham-express.jpg" alt="memoir" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Fundo</h3>
+                <h3 class="project-title">Melham Express</h3>
 
-                <p class="project-category">Web design</p>
+                <p class="project-category">Android Development</p>
 
               </a>
             </li>
-
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Brawlhalla</h3>
-
-                <p class="project-category">Applications</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
-                </figure>
-
-                <h3 class="project-title">DSM.</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">MetaSpark</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Summary</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Task Manager</h3>
-
-                <p class="project-category">Applications</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Arrival</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
           </ul>
 
         </section>
