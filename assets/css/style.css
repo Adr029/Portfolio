@@ -504,7 +504,7 @@ main {
 
 .about-text {
   color: var(--light-gray);
-  font-size: var(--fs-6);
+  font-size: var(--fs-7);
   font-weight: var(--fw-300);
   line-height: 1.6;
 }
@@ -560,7 +560,17 @@ main {
   line-height: 1.6;
 }
 
+.credits-text
+{
+  color: var(--light-gray);
+  font-size: var(--fs-8);
+  font-weight: var(--fw-300);
+  line-height: 1.6;
+  width: auto;
+  display: inline-block;
 
+
+}
 /**
  * #testimonials 
  */
@@ -1293,8 +1303,19 @@ main {
 
   .clients-item { min-width: calc(33.33% - 35px); }
 
-
-
+/*links*/
+.links
+{
+  display:inline;
+    color: var( --cornflower-blue);
+}
+.links:link {
+  color: var( --cornflower-blue);}
+.links:visited {
+  color: var( --cornflower-blue);}
+.links:hover {
+  text-decoration: underline;
+}
   /**
    * #RESUME
    */
