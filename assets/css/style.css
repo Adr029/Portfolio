@@ -814,6 +814,7 @@ main {
   padding-left: 20px;
 
 }
+
 .timeline-list span {
   color: var(--cornflower-blue);
   font-weight: var(--fw-400);
@@ -1306,7 +1307,7 @@ main {
 /*links*/
 .links
 {
-  display:inline;
+    display:inline;
     color: var( --cornflower-blue);
 }
 .links:link {
@@ -1314,6 +1315,7 @@ main {
 .links:visited {
   color: var( --cornflower-blue);}
 .links:hover {
+  color: var( --cornflower-blue);
   text-decoration: underline;
 }
   /**
